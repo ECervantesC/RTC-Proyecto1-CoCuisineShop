@@ -584,9 +584,9 @@ footer > p {
     width: 100vw;
   }
   /* SECTION MOULDS */
-  /* #moulds {
-    padding: 0px 50px;
-  } */
+  #moulds {
+    padding: 0px 20px;
+  }
   #moulds > div > article > a > img {
     width: 50vw;
   }
@@ -595,6 +595,7 @@ footer > p {
     top: -1vh;
     left: 25vw;
     z-index: 2;
+    width: 150px;
   }
   /* FOOTER */
   footer {
