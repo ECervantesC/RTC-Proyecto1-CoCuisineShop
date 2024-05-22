@@ -109,6 +109,7 @@ h1 {
   position: relative;
   bottom: 10rem;
   left: 1rem;
+  width: 90%;
 }
 #hero > div > button {
   font-size: 12px;
@@ -423,6 +424,9 @@ a {
   color: var(--font-secondary-color);
   margin: 0px 0px 20px;
   font-weight: 500;
+  /*ACABO DE TOCAR ESTO */
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 footer > section > button {
   width: 100%;
@@ -536,14 +540,22 @@ footer > p {
     width: 20px;
   }
   .headerFirstHalf {
-    gap: 200px;
+    /* gap: 100svh; */
     align-items: center;
   }
+  /* HERO */
+  /* #hero > img {
+    width: 100%;
+  } */
   /* PACKS */
   #packs div > article > div > img {
     width: 60vw;
   }
   /* PRODUCTS */
+  /* SECTION PRODUCTS*/
+  #products {
+    justify-content: center;
+  }
   #products > article {
     margin: 15px;
   }
